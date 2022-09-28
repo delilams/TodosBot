@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: #a786df;
+    color: #fffffe;
+}
+
+div {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px 3px #121629;
+    width: 650px;
+    height: 280px;
+    margin: 50px auto;
+    padding: 25px 20px;
+    background-color: #e45858;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 11px;
+}
+
+#btnGetActivity {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #eebbc3;
+    color: #232946;
+    font-weight: 700;
+}
+
+#btnGetActivity:hover {
+    color: #f25042;
+    background-color: #fec7d7;
+    box-shadow: 3px 3px 3px 3px #121629;
+}
